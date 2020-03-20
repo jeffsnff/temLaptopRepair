@@ -1,0 +1,28 @@
+html,
+body,
+header,
+#intro {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+#intro {
+    background: url("https://temeculalaptoprepair.files.wordpress.com/2018/04/cropped-banner3-diego-mod-2.png")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.top-nav-collapse{
+  background-color: #24355C;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355C;
+  }
+}
