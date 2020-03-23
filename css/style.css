@@ -28,15 +28,11 @@ header,
     background-color: #24355C;
     display: block;
     padding: 10px;
-    height: 70vh;
+    height: 60vh;
     width: 100vw;
   }
   #intro {
     display: none;
-    /* height: 0; */
-    /* background-color: grey;
-    height: 65%;
-    margin-bottom: 0; */
   }
   .navbar:not(.top-nav-collapse) {
     background-color: #24355C;
