@@ -12,15 +12,22 @@ header,
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
+    background-color: rgb(51, 49, 49);
 }
 .top-nav-collapse{
   background-color: #24355C;
+}
+.mobile-banner{
+  display: none;
 }
 @media (max-width: 768px) {
   header {
     height: 70%;
   }
   .mobile-banner{
+    background-color: #24355C;
+    display: block;
+    padding: 10px;
     height: 70vh;
     width: 100vw;
   }
